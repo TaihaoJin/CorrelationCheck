@@ -1,0 +1,94 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PolarizationProfile - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/PolarizationProfile.res" /d "_DEBUG" "C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\PolarizationProfile.rc"" 
+Creating temporary file "C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BB.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/PolarizationProfile.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\ChildFrm.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\MainFrm.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\MAlign.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\OutputCutoffDialog.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\Polarization.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\PolarizationProfile.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\PolarizationProfileDoc.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\PolarizationProfileView.cpp"
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\T_Test.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BB.tmp" 
+Creating temporary file "C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BC.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/PolarizationProfile.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BC.tmp" 
+Creating temporary file "C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BD.tmp" with contents
+[
+NRStatic.lib /nologo /subsystem:windows /profile /debug /machine:I386 /nodefaultlib:"libc.lib" /nodefaultlib:"libcmt.lib" /nodefaultlib:"msvcrt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"msvcrtd.lib" /out:"Debug/PolarizationProfile.exe" 
+".\Debug\ChildFrm.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MAlign.obj"
+".\Debug\OutputCutoffDialog.obj"
+".\Debug\Polarization.obj"
+".\Debug\PolarizationProfile.obj"
+".\Debug\PolarizationProfileDoc.obj"
+".\Debug\PolarizationProfileView.obj"
+".\Debug\StdAfx.obj"
+".\Debug\T_Test.obj"
+".\Debug\PolarizationProfile.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\TAIHAO~1\LOCALS~1\Temp\RSP1BD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+MainFrm.cpp
+MAlign.cpp
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(39) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(39) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+OutputCutoffDialog.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\OutputCutoffDialog.cpp(110) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Polarization.cpp
+C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\Polarization.cpp(1527) : warning C4101: 'cTemp' : unreferenced local variable
+C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\Polarization.cpp(1667) : warning C4551: function call missing argument list
+c:\program files\microsoft visual studio\vc98\include\vector(80) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(62) : while compiling class-template member function 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::operator =(const std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &)'
+c:\program files\microsoft visual studio\vc98\include\vector(80) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(62) : while compiling class-template member function 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::operator =(const std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &)'
+PolarizationProfile.cpp
+c:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+PolarizationProfileDoc.cpp
+c:\program files\microsoft visual studio\vc98\include\vector(52) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(48) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &)'
+c:\program files\microsoft visual studio\vc98\include\vector(52) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(48) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > &)'
+PolarizationProfileView.cpp
+c:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\utility(21) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+T_Test.cpp
+Generating Code...
+C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\T_Test.cpp(119) : warning C4715: 'CT_Test::ClosestIndex' : not all control paths return a value
+c:\program files\microsoft visual studio\vc98\include\vector(52) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+C:\Program Files\Microsoft Visual Studio\MyProjects\PolarizationProfile1\Polarization.cpp(1110) : warning C4700: local variable 'cTemp' used without having been initialized
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\vector(60) : warning C4786: 'std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+PolarizationProfile.exe - 0 error(s), 19 warning(s)
+</pre>
+</body>
+</html>
